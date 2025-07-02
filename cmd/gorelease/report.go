@@ -65,6 +65,14 @@ func (r *report) String() string {
 		return buf.String()
 	}
 
+	if len(r.release.warnDiagnostics) > 0 {
+		buf.WriteString("# warnings\n")
+		for _, d := range r.release.diagnostics {
+			fmt.Fprintln(buf, d)
+		}
+		buf.WriteByte('\n')
+	}
+
 	if len(r.release.diagnostics) > 0 {
 		buf.WriteString("# diagnostics\n")
 		for _, d := range r.release.diagnostics {

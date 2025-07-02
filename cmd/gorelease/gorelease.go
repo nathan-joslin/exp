@@ -275,8 +275,9 @@ type moduleInfo struct {
 	goSumData []byte        // content of go.sum
 	goModFile *modfile.File // parsed go.mod file
 
-	diagnostics []string            // problems not related to loading specific packages
-	pkgs        []*packages.Package // loaded packages with type information
+	diagnostics     []string            // problems not related to loading specific packages
+	warnDiagnostics []string            // semi-problematic diagnosics
+	pkgs            []*packages.Package // loaded packages with type information
 
 	// Versions of this module which already exist. Only loaded for release
 	// (not base).
@@ -431,7 +432,7 @@ func loadLocalModule(ctx context.Context, modRoot, repoRoot, version string) (m 
 	if err != nil {
 		return moduleInfo{}, err
 	}
-	m.diagnostics = append(m.diagnostics, retracted...)
+	m.warnDiagnostics = append(m.diagnostics, retracted...)
 
 	return m, nil
 }
