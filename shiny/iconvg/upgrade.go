@@ -24,7 +24,7 @@ type UpgradeToFileFormatVersion1Options struct {
 // UpgradeToFileFormatVersion1 upgrades IconVG data from the 2016 experimental
 // "File Format Version 0" to the 2021 "File Format Version 1".
 //
-// This package (golang.org/x/exp/shiny/iconvg) holds a decoder for FFV0,
+// This package (github.com/nathan-joslin/exp/shiny/iconvg) holds a decoder for FFV0,
 // including this function to convert from FFV0 to FFV1. Different packages
 // (github.com/google/iconvg/src/go/*) decode FFV1.
 //

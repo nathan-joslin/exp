@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"testing"
 
-	"golang.org/x/exp/errors"
+	"github.com/nathan-joslin/exp/errors"
 )
 
 func TestNewEqual(t *testing.T) {

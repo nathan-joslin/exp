@@ -11,13 +11,13 @@ import (
 	"strings"
 	"sync"
 
-	"golang.org/x/exp/sumdb/internal/note"
-	"golang.org/x/exp/sumdb/internal/tlog"
+	"github.com/nathan-joslin/exp/sumdb/internal/note"
+	"github.com/nathan-joslin/exp/sumdb/internal/tlog"
 )
 
 // NewTestServer constructs a new TestServer
 // that will sign its tree with the given signer key
-// (see golang.org/x/exp/sumdb/internal/note)
+// (see github.com/nathan-joslin/exp/sumdb/internal/note)
 // and fetch new records as needed by calling gosum.
 func NewTestServer(signer string, gosum func(path, vers string) ([]byte, error)) *TestServer {
 	return &TestServer{signer: signer, gosum: gosum}

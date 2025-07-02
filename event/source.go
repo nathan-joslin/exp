@@ -60,7 +60,7 @@ func init() {
 	// make all entries in the event package helpers
 	globalCallers = make(chan *sources, 1)
 	globalCallers <- g
-	RegisterHelper("golang.org/x/exp/event")
+	RegisterHelper("github.com/nathan-joslin/exp/event")
 }
 
 func newCallers() sources {

@@ -8,8 +8,8 @@ import (
 	"context"
 	"os"
 
-	"golang.org/x/exp/slog"
-	"golang.org/x/exp/slog/internal/testutil"
+	"github.com/nathan-joslin/exp/slog"
+	"github.com/nathan-joslin/exp/slog/internal/testutil"
 )
 
 // A LevelHandler wraps a Handler with an Enabled method

@@ -4,7 +4,7 @@
 
 package fmt
 
-import "golang.org/x/exp/errors"
+import "github.com/nathan-joslin/exp/errors"
 
 // The functionality in this file is to provide adaptors only. It will not
 // be included in the standard library.

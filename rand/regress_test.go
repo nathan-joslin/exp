@@ -18,7 +18,7 @@ import (
 	"reflect"
 	"testing"
 
-	. "golang.org/x/exp/rand"
+	. "github.com/nathan-joslin/exp/rand"
 )
 
 var printgolden = flag.Bool("printgolden", false, "print golden results for regression test")

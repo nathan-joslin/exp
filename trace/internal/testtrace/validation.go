@@ -11,10 +11,11 @@ package testtrace
 import (
 	"errors"
 	"fmt"
-	"golang.org/x/exp/trace"
-	"golang.org/x/exp/trace/internal/version"
 	"slices"
 	"strings"
+
+	"github.com/nathan-joslin/exp/trace"
+	"github.com/nathan-joslin/exp/trace/internal/version"
 )
 
 // Validator is a type used for validating a stream of trace.Events.

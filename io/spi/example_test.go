@@ -4,7 +4,7 @@
 
 package spi_test
 
-import "golang.org/x/exp/io/spi"
+import "github.com/nathan-joslin/exp/io/spi"
 
 // Example illustrates a program that drives an APA-102 LED strip.
 func Example() {

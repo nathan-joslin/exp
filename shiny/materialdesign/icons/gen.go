@@ -22,7 +22,7 @@ import (
 	"strconv"
 	"strings"
 
-	"golang.org/x/exp/shiny/iconvg"
+	"github.com/nathan-joslin/exp/shiny/iconvg"
 	"golang.org/x/image/math/f32"
 )
 

@@ -8,8 +8,8 @@ import (
 	"image"
 	"image/draw"
 
-	"golang.org/x/exp/shiny/screen"
-	"golang.org/x/exp/shiny/widget/node"
+	"github.com/nathan-joslin/exp/shiny/screen"
+	"github.com/nathan-joslin/exp/shiny/widget/node"
 	"golang.org/x/image/math/f64"
 	"golang.org/x/mobile/event/lifecycle"
 )

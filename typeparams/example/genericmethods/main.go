@@ -14,7 +14,7 @@ import (
 	"go/types"
 	"log"
 
-	"golang.org/x/exp/typeparams"
+	"github.com/nathan-joslin/exp/typeparams"
 )
 
 const src = `

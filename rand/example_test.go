@@ -10,7 +10,7 @@ import (
 	"strings"
 	"text/tabwriter"
 
-	"golang.org/x/exp/rand"
+	"github.com/nathan-joslin/exp/rand"
 )
 
 // These tests serve as an example but also make sure we don't change

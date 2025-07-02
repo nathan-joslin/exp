@@ -13,10 +13,10 @@ import (
 	"io"
 	"testing"
 
+	"github.com/nathan-joslin/exp/event"
+	"github.com/nathan-joslin/exp/event/otel"
 	sdktrace "go.opentelemetry.io/otel/sdk/trace"
 	"go.opentelemetry.io/otel/trace"
-	"golang.org/x/exp/event"
-	"golang.org/x/exp/event/otel"
 )
 
 func TestTrace(t *testing.T) {

@@ -15,7 +15,7 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"golang.org/x/exp/slog/internal/buffer"
+	"github.com/nathan-joslin/exp/slog/internal/buffer"
 )
 
 // JSONHandler is a Handler that writes Records to an io.Writer as

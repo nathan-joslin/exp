@@ -14,7 +14,7 @@ import (
 	"os"
 	"strings"
 
-	"golang.org/x/exp/apidiff"
+	"github.com/nathan-joslin/exp/apidiff"
 	"golang.org/x/tools/go/gcexportdata"
 	"golang.org/x/tools/go/packages"
 )

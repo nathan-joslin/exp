@@ -34,7 +34,7 @@ import (
 	"errors"
 	"time"
 
-	"golang.org/x/exp/slog"
+	"github.com/nathan-joslin/exp/slog"
 )
 
 // The symbols in this file are exported so that the Zap benchmarks can use them.

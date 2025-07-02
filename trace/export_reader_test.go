@@ -8,7 +8,7 @@
 
 package trace
 
-import "golang.org/x/exp/trace/internal/version"
+import "github.com/nathan-joslin/exp/trace/internal/version"
 
 // GoVersion is the version set in the trace header.
 func (r *Reader) GoVersion() version.Version {

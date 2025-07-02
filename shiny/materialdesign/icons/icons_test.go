@@ -12,7 +12,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"golang.org/x/exp/shiny/iconvg"
+	"github.com/nathan-joslin/exp/shiny/iconvg"
 )
 
 func encodePNG(dstFilename string, src image.Image) error {

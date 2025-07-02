@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	"golang.org/x/exp/slices"
+	"github.com/nathan-joslin/exp/slices"
 )
 
 func TestRecordAttrs(t *testing.T) {
@@ -46,7 +46,7 @@ func TestRecordSource(t *testing.T) {
 	}{
 		{0, "", "", false},
 		{-16, "", "", false},
-		{1, "golang.org/x/exp/slog.TestRecordSource", "record_test.go", true}, // 1: caller of NewRecord
+		{1, "github.com/nathan-joslin/exp/slog.TestRecordSource", "record_test.go", true}, // 1: caller of NewRecord
 		{2, "testing.tRunner", "testing.go", true},
 	} {
 		var pc uintptr

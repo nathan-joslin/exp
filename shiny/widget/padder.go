@@ -5,9 +5,9 @@
 package widget
 
 import (
-	"golang.org/x/exp/shiny/unit"
-	"golang.org/x/exp/shiny/widget/node"
-	"golang.org/x/exp/shiny/widget/theme"
+	"github.com/nathan-joslin/exp/shiny/unit"
+	"github.com/nathan-joslin/exp/shiny/widget/node"
+	"github.com/nathan-joslin/exp/shiny/widget/theme"
 )
 
 // Padder is a shell widget that adds a margin to the inner widget's measured

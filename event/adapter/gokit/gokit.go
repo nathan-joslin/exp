@@ -10,7 +10,7 @@ import (
 	"fmt"
 
 	"github.com/go-kit/kit/log"
-	"golang.org/x/exp/event"
+	"github.com/nathan-joslin/exp/event"
 )
 
 type logger struct {

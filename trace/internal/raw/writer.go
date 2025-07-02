@@ -13,8 +13,8 @@ import (
 	"fmt"
 	"io"
 
-	"golang.org/x/exp/trace/internal/tracev2"
-	"golang.org/x/exp/trace/internal/version"
+	"github.com/nathan-joslin/exp/trace/internal/tracev2"
+	"github.com/nathan-joslin/exp/trace/internal/version"
 )
 
 // Writer emits the wire format of a trace.

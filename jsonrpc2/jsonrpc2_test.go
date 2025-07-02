@@ -14,9 +14,9 @@ import (
 	"testing"
 	"time"
 
-	"golang.org/x/exp/event/eventtest"
-	"golang.org/x/exp/jsonrpc2"
-	"golang.org/x/exp/jsonrpc2/internal/stack/stacktest"
+	"github.com/nathan-joslin/exp/event/eventtest"
+	"github.com/nathan-joslin/exp/jsonrpc2"
+	"github.com/nathan-joslin/exp/jsonrpc2/internal/stack/stacktest"
 	errors "golang.org/x/xerrors"
 )
 

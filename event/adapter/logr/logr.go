@@ -9,8 +9,8 @@ import (
 	"context"
 
 	"github.com/go-logr/logr"
-	"golang.org/x/exp/event"
-	"golang.org/x/exp/event/severity"
+	"github.com/nathan-joslin/exp/event"
+	"github.com/nathan-joslin/exp/event/severity"
 )
 
 type logSink struct {

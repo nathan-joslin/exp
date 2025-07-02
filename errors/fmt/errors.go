@@ -8,8 +8,8 @@ import (
 	"bytes"
 	"strings"
 
-	"golang.org/x/exp/errors"
-	"golang.org/x/exp/errors/internal"
+	"github.com/nathan-joslin/exp/errors"
+	"github.com/nathan-joslin/exp/errors/internal"
 )
 
 // Errorf formats according to a format specifier and returns the string as a

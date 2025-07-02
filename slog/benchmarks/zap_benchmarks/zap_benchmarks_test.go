@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
+	slogbench "github.com/nathan-joslin/exp/slog/benchmarks"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
-	slogbench "golang.org/x/exp/slog/benchmarks"
 )
 
 // Keep in sync (same names and behavior) as the

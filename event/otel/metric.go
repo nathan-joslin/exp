@@ -10,9 +10,9 @@ import (
 	"fmt"
 	"sync"
 
+	"github.com/nathan-joslin/exp/event"
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/metric"
-	"golang.org/x/exp/event"
 )
 
 // MetricHandler is an event.Handler for OpenTelemetry metrics.

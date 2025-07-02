@@ -9,10 +9,10 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/nathan-joslin/exp/slog"
+	slogbench "github.com/nathan-joslin/exp/slog/benchmarks"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
-	"golang.org/x/exp/slog"
-	slogbench "golang.org/x/exp/slog/benchmarks"
 )
 
 func TestEncoders(t *testing.T) {

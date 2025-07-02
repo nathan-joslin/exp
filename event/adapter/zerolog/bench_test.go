@@ -9,8 +9,8 @@ import (
 	"io"
 	"testing"
 
+	"github.com/nathan-joslin/exp/event/eventtest"
 	"github.com/rs/zerolog"
-	"golang.org/x/exp/event/eventtest"
 )
 
 var (

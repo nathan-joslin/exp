@@ -13,7 +13,7 @@ import (
 	"strings"
 	"testing"
 
-	. "golang.org/x/exp/typeparams"
+	. "github.com/nathan-joslin/exp/typeparams"
 )
 
 func TestNormalTerms(t *testing.T) {

@@ -17,7 +17,7 @@ import (
 	"github.com/jezek/xgb/shm"
 	"github.com/jezek/xgb/xproto"
 
-	"golang.org/x/exp/shiny/driver/internal/swizzle"
+	"github.com/nathan-joslin/exp/shiny/driver/internal/swizzle"
 )
 
 type bufferUploader interface {

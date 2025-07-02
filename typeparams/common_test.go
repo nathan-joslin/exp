@@ -11,7 +11,7 @@ import (
 	"go/types"
 	"testing"
 
-	. "golang.org/x/exp/typeparams"
+	. "github.com/nathan-joslin/exp/typeparams"
 )
 
 func TestGetIndexExprData(t *testing.T) {

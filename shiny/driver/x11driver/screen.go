@@ -17,8 +17,8 @@ import (
 	"github.com/jezek/xgb/shm"
 	"github.com/jezek/xgb/xproto"
 
-	"golang.org/x/exp/shiny/driver/internal/x11key"
-	"golang.org/x/exp/shiny/screen"
+	"github.com/nathan-joslin/exp/shiny/driver/internal/x11key"
+	"github.com/nathan-joslin/exp/shiny/screen"
 	"golang.org/x/image/math/f64"
 	"golang.org/x/mobile/event/key"
 	"golang.org/x/mobile/event/mouse"

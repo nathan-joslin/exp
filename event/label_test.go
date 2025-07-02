@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"golang.org/x/exp/event"
+	"github.com/nathan-joslin/exp/event"
 )
 
 func TestOfAs(t *testing.T) {

@@ -19,7 +19,7 @@
 // non-terminal productions (i.e., productions which allow white-space
 // and comments between tokens); all other production names denote
 // lexical productions.
-package ebnf // import "golang.org/x/exp/ebnf"
+package ebnf // import "github.com/nathan-joslin/exp/ebnf"
 
 import (
 	"errors"

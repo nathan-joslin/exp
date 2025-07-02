@@ -5,7 +5,7 @@
 package widget
 
 import (
-	"golang.org/x/exp/shiny/widget/node"
+	"github.com/nathan-joslin/exp/shiny/widget/node"
 )
 
 // Space is leaf widget that occupies empty space. For example, aligning two

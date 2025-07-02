@@ -7,8 +7,8 @@
 package driver
 
 import (
-	"golang.org/x/exp/shiny/driver/gldriver"
-	"golang.org/x/exp/shiny/screen"
+	"github.com/nathan-joslin/exp/shiny/driver/gldriver"
+	"github.com/nathan-joslin/exp/shiny/screen"
 )
 
 func main(f func(screen.Screen)) {

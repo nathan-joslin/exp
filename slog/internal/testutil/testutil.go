@@ -5,7 +5,7 @@
 // Package testutil contains support functions for testing.
 package testutil
 
-import "golang.org/x/exp/slog"
+import "github.com/nathan-joslin/exp/slog"
 
 // RemoveTime removes the top-level time attribute.
 // It is intended to be used as a ReplaceAttr function,

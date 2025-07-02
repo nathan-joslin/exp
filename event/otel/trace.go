@@ -7,8 +7,8 @@ package otel
 import (
 	"context"
 
+	"github.com/nathan-joslin/exp/event"
 	"go.opentelemetry.io/otel/trace"
-	"golang.org/x/exp/event"
 )
 
 type TraceHandler struct {

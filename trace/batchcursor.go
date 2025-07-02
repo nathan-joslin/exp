@@ -13,7 +13,7 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"golang.org/x/exp/trace/internal/tracev2"
+	"github.com/nathan-joslin/exp/trace/internal/tracev2"
 )
 
 type batchCursor struct {

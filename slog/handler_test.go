@@ -17,8 +17,8 @@ import (
 	"testing"
 	"time"
 
-	"golang.org/x/exp/slices"
-	"golang.org/x/exp/slog/internal/buffer"
+	"github.com/nathan-joslin/exp/slices"
+	"github.com/nathan-joslin/exp/slog/internal/buffer"
 )
 
 func TestDefaultHandle(t *testing.T) {
@@ -325,7 +325,7 @@ func TestJSONAndTextHandlers(t *testing.T) {
 			},
 			addSource: true,
 			wantText:  `source=handler_test.go:$LINE msg=message`,
-			wantJSON:  `{"source":{"function":"golang.org/x/exp/slog.TestJSONAndTextHandlers","file":"handler_test.go","line":$LINE},"msg":"message"}`,
+			wantJSON:  `{"source":{"function":"github.com/nathan-joslin/exp/slog.TestJSONAndTextHandlers","file":"handler_test.go","line":$LINE},"msg":"message"}`,
 		},
 	} {
 		r := NewRecord(testTime, LevelInfo, "message", callerPC(2))

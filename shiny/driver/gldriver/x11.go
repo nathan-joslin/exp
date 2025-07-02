@@ -33,8 +33,8 @@ import (
 	"time"
 	"unsafe"
 
-	"golang.org/x/exp/shiny/driver/internal/x11key"
-	"golang.org/x/exp/shiny/screen"
+	"github.com/nathan-joslin/exp/shiny/driver/internal/x11key"
+	"github.com/nathan-joslin/exp/shiny/screen"
 	"golang.org/x/mobile/event/key"
 	"golang.org/x/mobile/event/mouse"
 	"golang.org/x/mobile/event/paint"

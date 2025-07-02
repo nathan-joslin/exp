@@ -14,7 +14,7 @@ import (
 	"github.com/jezek/xgb/render"
 	"github.com/jezek/xgb/xproto"
 
-	"golang.org/x/exp/shiny/screen"
+	"github.com/nathan-joslin/exp/shiny/screen"
 	"golang.org/x/image/math/f64"
 )
 

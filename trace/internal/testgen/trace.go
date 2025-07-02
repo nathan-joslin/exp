@@ -17,10 +17,10 @@ import (
 	"strings"
 	"time"
 
-	"golang.org/x/exp/trace"
-	"golang.org/x/exp/trace/internal/raw"
-	"golang.org/x/exp/trace/internal/tracev2"
-	"golang.org/x/exp/trace/internal/version"
+	"github.com/nathan-joslin/exp/trace"
+	"github.com/nathan-joslin/exp/trace/internal/raw"
+	"github.com/nathan-joslin/exp/trace/internal/tracev2"
+	"github.com/nathan-joslin/exp/trace/internal/version"
 	"golang.org/x/tools/txtar"
 )
 

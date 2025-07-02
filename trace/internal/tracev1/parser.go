@@ -9,7 +9,7 @@
 // Package tracev1 implements a parser for Go execution traces from versions
 // 1.11–1.21.
 //
-// The package started as a copy of Go 1.19's golang.org/x/exp/trace, but has been
+// The package started as a copy of Go 1.19's github.com/nathan-joslin/exp/trace, but has been
 // optimized to be faster while using less memory and fewer allocations. It has
 // been further modified for the specific purpose of converting traces to the
 // new 1.22+ format.
@@ -21,11 +21,12 @@ import (
 	"encoding/binary"
 	"errors"
 	"fmt"
-	"golang.org/x/exp/trace/internal/version"
 	"io"
 	"math"
 	"slices"
 	"sort"
+
+	"github.com/nathan-joslin/exp/trace/internal/version"
 )
 
 // Timestamp represents a count of nanoseconds since the beginning of the trace.
@@ -170,7 +171,7 @@ func newParser(r io.Reader, ver version.Version) (*parser, error) {
 // be the version of the trace. This can be achieved by using
 // version.ReadHeader.
 func Parse(r io.Reader, vers version.Version) (Trace, error) {
-	// We accept the version as an argument because golang.org/x/exp/trace will have
+	// We accept the version as an argument because github.com/nathan-joslin/exp/trace will have
 	// already read the version to determine which parser to use.
 	p, err := newParser(r, vers)
 	if err != nil {

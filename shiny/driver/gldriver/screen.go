@@ -9,7 +9,7 @@ import (
 	"image"
 	"sync"
 
-	"golang.org/x/exp/shiny/screen"
+	"github.com/nathan-joslin/exp/shiny/screen"
 	"golang.org/x/mobile/gl"
 )
 

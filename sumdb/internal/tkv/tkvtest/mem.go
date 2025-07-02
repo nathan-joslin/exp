@@ -10,7 +10,7 @@ import (
 	"math/rand"
 	"sync"
 
-	"golang.org/x/exp/sumdb/internal/tkv"
+	"github.com/nathan-joslin/exp/sumdb/internal/tkv"
 )
 
 // Mem is an in-memory implementation of Storage.

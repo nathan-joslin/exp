@@ -18,7 +18,7 @@ import (
 	"testing"
 	"time"
 
-	"golang.org/x/exp/slog/internal/buffer"
+	"github.com/nathan-joslin/exp/slog/internal/buffer"
 )
 
 func TestJSONHandler(t *testing.T) {

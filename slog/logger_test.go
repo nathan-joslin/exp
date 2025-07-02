@@ -17,7 +17,7 @@ import (
 	"testing"
 	"time"
 
-	"golang.org/x/exp/slices"
+	"github.com/nathan-joslin/exp/slices"
 )
 
 // textTimeRE is a regexp to match log timestamps for Text handler.
@@ -173,7 +173,7 @@ func TestCallDepth(t *testing.T) {
 
 	check := func(count int) {
 		t.Helper()
-		const wantFunc = "golang.org/x/exp/slog.TestCallDepth"
+		const wantFunc = "github.com/nathan-joslin/exp/slog.TestCallDepth"
 		const wantFile = "logger_test.go"
 		wantLine := startLine + count*2
 		got := h.r.source()

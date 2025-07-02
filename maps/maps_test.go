@@ -10,7 +10,7 @@ import (
 	"strconv"
 	"testing"
 
-	"golang.org/x/exp/slices"
+	"github.com/nathan-joslin/exp/slices"
 )
 
 var m1 = map[int]int{1: 2, 2: 4, 4: 8, 8: 16}

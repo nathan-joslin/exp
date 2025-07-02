@@ -11,9 +11,9 @@ import (
 	"io"
 	"testing"
 
-	"golang.org/x/exp/event"
-	"golang.org/x/exp/event/adapter/logfmt"
-	"golang.org/x/exp/event/eventtest"
+	"github.com/nathan-joslin/exp/event"
+	"github.com/nathan-joslin/exp/event/adapter/logfmt"
+	"github.com/nathan-joslin/exp/event/eventtest"
 )
 
 func TestAllocs(t *testing.T) {

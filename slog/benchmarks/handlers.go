@@ -13,8 +13,8 @@ import (
 	"strconv"
 	"time"
 
-	"golang.org/x/exp/slog"
-	"golang.org/x/exp/slog/internal/buffer"
+	"github.com/nathan-joslin/exp/slog"
+	"github.com/nathan-joslin/exp/slog/internal/buffer"
 )
 
 // A fastTextHandler writes a Record to an io.Writer in a format similar to

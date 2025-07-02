@@ -5,7 +5,7 @@
 package jsonrpc2
 
 import (
-	"golang.org/x/exp/event"
+	"github.com/nathan-joslin/exp/event"
 )
 
 func Method(v string) event.Label       { return event.String("method", v) }

@@ -10,7 +10,7 @@ import (
 	"image"
 
 	"github.com/go-gl/glfw/v3.3/glfw"
-	"golang.org/x/exp/shiny/screen"
+	"github.com/nathan-joslin/exp/shiny/screen"
 )
 
 // screenImpl implements screen.Screen.

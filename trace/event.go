@@ -16,8 +16,8 @@ import (
 	"strings"
 	"time"
 
-	"golang.org/x/exp/trace/internal/tracev2"
-	"golang.org/x/exp/trace/internal/version"
+	"github.com/nathan-joslin/exp/trace/internal/tracev2"
+	"github.com/nathan-joslin/exp/trace/internal/version"
 )
 
 // EventKind indicates the kind of event this is.

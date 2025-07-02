@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	"golang.org/x/exp/event"
-	"golang.org/x/exp/event/adapter/logfmt"
+	"github.com/nathan-joslin/exp/event"
+	"github.com/nathan-joslin/exp/event/adapter/logfmt"
 )
 
 func TestPrint(t *testing.T) {
@@ -36,8 +36,8 @@ func TestPrint(t *testing.T) {
 		expect: `parent=14`,
 	}, {
 		name:   "namespace",
-		event:  event.Event{Source: event.Source{Space: "golang.org/x/exp/event"}},
-		expect: `in=golang.org/x/exp/event`,
+		event:  event.Event{Source: event.Source{Space: "github.com/nathan-joslin/exp/event"}},
+		expect: `in=github.com/nathan-joslin/exp/event`,
 	}, {
 		name:   "at",
 		event:  event.Event{At: at},
@@ -174,10 +174,10 @@ func TestPrinterFlags(t *testing.T) {
 		name:    "suppress namespace",
 		printer: logfmt.Printer{SuppressNamespace: true},
 		event: event.Event{
-			Source: event.Source{Space: "golang.org/x/exp/event"},
+			Source: event.Source{Space: "github.com/nathan-joslin/exp/event"},
 			Labels: []event.Label{event.String("msg", "some text")},
 		},
-		before: `in=golang.org/x/exp/event msg="some text"`,
+		before: `in=github.com/nathan-joslin/exp/event msg="some text"`,
 		after:  `msg="some text"`,
 	}} {
 		t.Run(test.name, func(t *testing.T) {

@@ -8,7 +8,7 @@ import (
 	"context"
 	"fmt"
 
-	"golang.org/x/exp/event"
+	"github.com/nathan-joslin/exp/event"
 )
 
 // Level represents a severity level of an event.

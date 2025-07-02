@@ -11,7 +11,7 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"golang.org/x/exp/event/adapter/logfmt"
+	"github.com/nathan-joslin/exp/event/adapter/logfmt"
 )
 
 type Info struct {

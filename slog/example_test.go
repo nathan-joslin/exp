@@ -9,8 +9,8 @@ import (
 	"os"
 	"time"
 
-	"golang.org/x/exp/slog"
-	"golang.org/x/exp/slog/internal/testutil"
+	"github.com/nathan-joslin/exp/slog"
+	"github.com/nathan-joslin/exp/slog/internal/testutil"
 )
 
 func ExampleGroup() {

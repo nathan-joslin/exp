@@ -5,8 +5,8 @@ import (
 	"context"
 	"testing"
 
-	"golang.org/x/exp/slices"
-	"golang.org/x/exp/slog"
+	"github.com/nathan-joslin/exp/slices"
+	"github.com/nathan-joslin/exp/slog"
 )
 
 func TestHandlers(t *testing.T) {

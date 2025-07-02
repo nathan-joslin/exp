@@ -15,9 +15,9 @@ import (
 	"slices"
 	"strings"
 
-	"golang.org/x/exp/trace/internal/tracev1"
-	"golang.org/x/exp/trace/internal/tracev2"
-	"golang.org/x/exp/trace/internal/version"
+	"github.com/nathan-joslin/exp/trace/internal/tracev1"
+	"github.com/nathan-joslin/exp/trace/internal/tracev2"
+	"github.com/nathan-joslin/exp/trace/internal/version"
 )
 
 // Reader reads a byte stream, validates it, and produces trace events.

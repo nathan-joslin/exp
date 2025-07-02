@@ -9,12 +9,13 @@
 package tracev2_test
 
 import (
-	"golang.org/x/exp/trace/internal/tracev2"
 	"iter"
 	"regexp"
 	"slices"
 	"strings"
 	"testing"
+
+	"github.com/nathan-joslin/exp/trace/internal/tracev2"
 )
 
 var argNameRegexp = regexp.MustCompile(`((?P<name>[A-Za-z]+)_)?(?P<type>[A-Za-z]+)`)

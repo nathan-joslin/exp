@@ -34,9 +34,10 @@ package trace
 import (
 	"errors"
 	"fmt"
-	"golang.org/x/exp/trace/internal/tracev1"
-	"golang.org/x/exp/trace/internal/tracev2"
 	"io"
+
+	"github.com/nathan-joslin/exp/trace/internal/tracev1"
+	"github.com/nathan-joslin/exp/trace/internal/tracev2"
 )
 
 type traceV1Converter struct {

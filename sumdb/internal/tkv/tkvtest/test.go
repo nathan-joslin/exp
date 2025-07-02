@@ -11,7 +11,7 @@ import (
 	"io"
 	"testing"
 
-	"golang.org/x/exp/sumdb/internal/tkv"
+	"github.com/nathan-joslin/exp/sumdb/internal/tkv"
 )
 
 func TestStorage(t *testing.T, ctx context.Context, storage tkv.Storage) {

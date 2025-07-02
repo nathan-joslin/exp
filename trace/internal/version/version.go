@@ -12,7 +12,7 @@ import (
 	"fmt"
 	"io"
 
-	"golang.org/x/exp/trace/internal/tracev2"
+	"github.com/nathan-joslin/exp/trace/internal/tracev2"
 )
 
 // Version represents the version of a trace file.

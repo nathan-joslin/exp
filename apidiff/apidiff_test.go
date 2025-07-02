@@ -243,7 +243,7 @@ func loadPackage(t *testing.T, importPath, goPath string) (*packages.Package, er
 }
 
 func TestExportedFields(t *testing.T) {
-	pkg, err := loadPackage(t, "golang.org/x/exp/apidiff/testdata/exported_fields", "")
+	pkg, err := loadPackage(t, "github.com/nathan-joslin/exp/apidiff/testdata/exported_fields", "")
 	if err != nil {
 		t.Fatal(err)
 	}

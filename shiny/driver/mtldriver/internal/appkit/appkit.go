@@ -17,7 +17,7 @@ package appkit
 import (
 	"unsafe"
 
-	"golang.org/x/exp/shiny/driver/mtldriver/internal/coreanim"
+	"github.com/nathan-joslin/exp/shiny/driver/mtldriver/internal/coreanim"
 )
 
 /*

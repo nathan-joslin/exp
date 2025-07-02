@@ -13,8 +13,8 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"golang.org/x/exp/sumdb/internal/note"
-	"golang.org/x/exp/sumdb/internal/tlog"
+	"github.com/nathan-joslin/exp/sumdb/internal/note"
+	"github.com/nathan-joslin/exp/sumdb/internal/tlog"
 )
 
 // A Client provides the external operations

@@ -11,11 +11,11 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
+	"github.com/nathan-joslin/exp/event"
+	elogrus "github.com/nathan-joslin/exp/event/adapter/logrus"
+	"github.com/nathan-joslin/exp/event/eventtest"
+	"github.com/nathan-joslin/exp/event/severity"
 	"github.com/sirupsen/logrus"
-	"golang.org/x/exp/event"
-	elogrus "golang.org/x/exp/event/adapter/logrus"
-	"golang.org/x/exp/event/eventtest"
-	"golang.org/x/exp/event/severity"
 )
 
 func Test(t *testing.T) {

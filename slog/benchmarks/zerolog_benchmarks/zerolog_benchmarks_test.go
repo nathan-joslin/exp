@@ -8,8 +8,8 @@ import (
 	"io"
 	"testing"
 
+	slogbench "github.com/nathan-joslin/exp/slog/benchmarks"
 	"github.com/rs/zerolog"
-	slogbench "golang.org/x/exp/slog/benchmarks"
 )
 
 // Keep in sync (same names and behavior) as the

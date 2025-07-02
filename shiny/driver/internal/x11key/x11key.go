@@ -5,7 +5,7 @@
 //go:generate go run gen.go
 
 // x11key contains X11 numeric codes for the keyboard and mouse.
-package x11key // import "golang.org/x/exp/shiny/driver/internal/x11key"
+package x11key // import "github.com/nathan-joslin/exp/shiny/driver/internal/x11key"
 
 import (
 	"unicode"

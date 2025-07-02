@@ -20,10 +20,10 @@ import (
 	"reflect"
 	"time"
 
+	"github.com/nathan-joslin/exp/event"
+	"github.com/nathan-joslin/exp/event/severity"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
-	"golang.org/x/exp/event"
-	"golang.org/x/exp/event/severity"
 )
 
 type core struct {

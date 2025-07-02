@@ -9,7 +9,7 @@ import (
 	"os"
 	"time"
 
-	"golang.org/x/exp/errors"
+	"github.com/nathan-joslin/exp/errors"
 )
 
 // MyError is an error implementation that includes a time and message.

@@ -13,7 +13,7 @@ import (
 	"time"
 	"unsafe"
 
-	"golang.org/x/exp/slices"
+	"github.com/nathan-joslin/exp/slices"
 )
 
 // A Value can represent any Go value, but unlike type any,

@@ -11,7 +11,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"golang.org/x/exp/slog/internal"
+	"github.com/nathan-joslin/exp/slog/internal"
 )
 
 var defaultLogger atomic.Value

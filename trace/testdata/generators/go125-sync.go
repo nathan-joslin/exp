@@ -9,11 +9,12 @@
 package main
 
 import (
-	"golang.org/x/exp/trace"
-	"golang.org/x/exp/trace/internal/testgen"
-	"golang.org/x/exp/trace/internal/tracev2"
-	"golang.org/x/exp/trace/internal/version"
 	"time"
+
+	"github.com/nathan-joslin/exp/trace"
+	"github.com/nathan-joslin/exp/trace/internal/testgen"
+	"github.com/nathan-joslin/exp/trace/internal/tracev2"
+	"github.com/nathan-joslin/exp/trace/internal/version"
 )
 
 func main() {

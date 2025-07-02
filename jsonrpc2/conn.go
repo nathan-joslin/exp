@@ -11,7 +11,7 @@ import (
 	"io"
 	"sync/atomic"
 
-	"golang.org/x/exp/event"
+	"github.com/nathan-joslin/exp/event"
 	errors "golang.org/x/xerrors"
 )
 

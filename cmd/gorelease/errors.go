@@ -29,7 +29,7 @@ func (e *usageError) Error() string {
 	if !errors.Is(e.err, flag.ErrHelp) {
 		msg = e.err.Error()
 	}
-	return usageText + "\n" + msg + "\nFor more information, run go doc golang.org/x/exp/cmd/gorelease"
+	return usageText + "\n" + msg + "\nFor more information, run go doc github.com/nathan-joslin/exp/cmd/gorelease"
 }
 
 type baseVersionError struct {

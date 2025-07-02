@@ -27,8 +27,8 @@ import (
 	"time"
 	_ "unsafe" // for go:linkname
 
-	"golang.org/x/exp/trace/internal/tracev2"
-	"golang.org/x/exp/trace/internal/version"
+	"github.com/nathan-joslin/exp/trace/internal/tracev2"
+	"github.com/nathan-joslin/exp/trace/internal/version"
 )
 
 // FlightRecorder represents a flight recording configuration.
