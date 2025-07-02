@@ -67,7 +67,7 @@ func (r *report) String() string {
 
 	if len(r.release.warnDiagnostics) > 0 {
 		buf.WriteString("# warnings\n")
-		for _, d := range r.release.diagnostics {
+		for _, d := range r.release.warnDiagnostics {
 			fmt.Fprintln(buf, d)
 		}
 		buf.WriteByte('\n')
